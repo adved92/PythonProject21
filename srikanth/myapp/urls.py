@@ -7,3 +7,5 @@ urlpatterns = [
     path('logout/', user_logout, name='logout'),
     path('create-user/', create_user, name='create-user'),
 ]
+
+print("login feature added")
